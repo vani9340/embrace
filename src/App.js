@@ -1,5 +1,4 @@
 import './App.css';
-
 import Nav from './Components/nav';
 import Part1 from './Components/part1';
 import Part2 from './Components/part2';
@@ -22,11 +21,12 @@ function App() {
   <Part4/>
   <Part5/>
   <Part6/>
-  <Part7/>
-<Part8/>
-<Part9/>
-<Part10/>
-<Part11/>
+   <Part7/>
+   <Part8/> 
+  <Part9/>
+   <Part10/>
+  <Part11/> 
+
 </>
   );
 }

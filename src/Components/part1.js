@@ -9,18 +9,18 @@ import img5 from './images/5.png'
 import pencil from './images/pencil.png'
 import crown from './images/crown.png'
 import girl from './images/girl.png'
-import union from './images/Union.png'
-import union2 from './images/Union2.png'
-import heart from './images/heart.png'
+// import union from './images/Union.png'
+// import union2 from './images/Union2.png'
+// import heart from './images/heart.png'
 function Part1(){
     return(
         <>
-<div class='flex px-[6.9vw] '>
+<div class='flex px-[6.9vw]  max-md_lg:justify-center'>
         <div class='mt-[80px] mb-[40px]'>
-            <div className="w-[498px] h-[360px] leading-[120px] "><h1 className="text-[5rem] font-semibold font-generalSans max-md:text-[3rem]">We Take <br/>
+            <div className="max-w-[498px] min-h-[360px] leading-[120px] max-md:min-h-[300px] max-md:text-center"><h1 className="text-[5rem] font-semibold font-generalSans max-md:text-[3rem]">We Take <br/>
             Care Of <br/>
             Your Brand</h1></div><br/>
-            <p className="container text-[16px] font-normal h-[96px] w-[413px] capitalize mt-[18px] mb-0 text-[#00000099]" >Use This Section To describe your company And The products You offer. You could share your company's story and details about why you are in business. </p>
+            <p className="container text-[16px] font-normal min-h-[96px]  max-w-[413px] capitalize mt-[18px] mb-0 text-[#00000099]" >Use This Section To describe your company And The products You offer. You could share your company's story and details about why you are in business. </p>
 
             <div className="flex  mb-[96px] mt-[30px]">
             <input placeholder="Enter your Email " class="bg-[#FAFAFA]  py-[20px] px-[18px] rounded-full w-[18vw] h-[62px]"/>
@@ -28,9 +28,9 @@ function Part1(){
             </div>
         </div>
         {/* //img of part-1 */}
-        <div class=' h-[800px] mt-[80px] mb-[40px]  absolute  right-10 '>
+        <div class='max-md_lg:hidden min-h-[800px] mt-[80px] mb-[40px]  absolute  right-10'>
  
-            <div class='flex'>
+            <div class='flex '>
                 <img src={img1}/>
                 <img src={img2}/>
             </div>
