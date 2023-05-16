@@ -6,9 +6,9 @@ import facebook from './images11/facebok.svg'
 function Part11(){
     return(
         <div class='capitalize '>
-            <div class='h-[392px] flex justify-between items-center px-[6.9vw]'>
+            <div class='max-916:flex max-916:flex-col 916:h-[392px] max-916:min-h-[392px] 916:flex justify-between items-center px-[6.9vw]'>
             {/* 1 section */}
-                <div>
+                <div class='max-916:order-last max-916:mt-[4rem]'>
                 <img src={embrace}/>
                 <p class='mt-[19px] text-black font-medium text-[1rem] leading-[1.25rem]'>Los Angeles, California, USA</p>
                 <div class='flex justify-start mt-[38px]'>
@@ -19,7 +19,7 @@ function Part11(){
                 <button class='text-white bg-blue_l px-[84px] py-[1rem] rounded-[69px] mt-[45.5px]'>Contact Us</button>
                 </div>
             {/* 2 section */}
-                <div class='flex gap-[75px] font-medium text-black text-[1rem] leading-[20px]'>
+                <div class='flex max-916:mt-[4rem] gap-[75px] font-medium text-black max-sm:text-[0.8rem] xsm:text-[1rem] leading-[20px]'>
                 <div class=' flex flex-col gap-[48px]'> 
                 <h1>Work With Us</h1>
                 <h1>Advertise With Us</h1>
@@ -51,8 +51,8 @@ function Part11(){
             </div>
 
 
-            <footer class='h-[119px] bg-[#000000cc] text-white flex justify-between items-center  px-[6.9vw]'>
-                <h1>© 2022 Embrace, Inc. - All Rights Reserved</h1>
+            <footer class='min-h-[119px] max-916:min-h-[90px] bg-[#000000cc] text-white flex justify-between items-center  px-[6.9vw] max-sm:text-[0.8rem]'>
+                <h1 >© 2022 Embrace, Inc. - All Rights Reserved</h1>
                 <div class='flex gap-[125px]'>
                     <h1>Terms of use</h1>
                     <h1>Privacy policy </h1>
